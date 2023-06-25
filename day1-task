@@ -1,0 +1,19 @@
+1.Write a blog on Difference between HTTP1.1 vs HTTP2
+    HTTP/1.1: The Classic Protocol
+    HTTP/1.1 has been the most widely used version of HTTP for many years.
+    It uses a request-response model, where a client sends a request to a server, and the server responds with the requested data. 
+
+    HTTP/2: The Next Generation
+    HTTP/2, released in 2015, aims to address the limitations of HTTP/1.1 and provide improved performance and efficiency.
+    Let's explore the key features of HTTP/2:
+2.Write a blog about objects and its internal representation in Javascript
+   object:   
+          In JavaScript, an object is an unordered collection of key-value pairs,
+    where the keys are strings (or symbols in ES6+) and the values can be any data type, including other objects.
+    Objects in JavaScript are dynamic, meaning they can have properties and methods added, modified, or removed at runtime.
+
+Internal Representation of Objects:
+           Internally, objects in JavaScript are implemented as dictionaries or hash tables. 
+     This representation allows for efficient property access and dynamic property addition or removal.
+     Each object has a hidden property called the internal prototype, which references another object or null. 
+     This internal prototype forms the basis of JavaScript's prototype-based inheritance.
